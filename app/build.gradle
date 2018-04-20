@@ -14,6 +14,19 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            buildConfigField "String", "API_MERCADO_BITCOIN", '"https://www.mercadobitcoin.net/api/"'
+            buildConfigField "String", "API_BANCO_CENRTAL", '"https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/"'
+            buildConfigField "String", "API_CURRENCY", '"https://private-40d156-currency11.apiary-mock.com/"'
+        }
+
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            buildConfigField "String", "API_MERCADO_BITCOIN", '"https://www.mercadobitcoin.net/api/"'
+            buildConfigField "String", "API_BANCO_CENRTAL", '"https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/"'
+            buildConfigField "String", "API_CURRENCY", '"https://private-40d156-currency11.apiary-mock.com/"'
         }
     }
 }
