@@ -1,7 +1,9 @@
-package br.com.solimar.desafiostone;
+package br.com.solimar.desafiostone.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import br.com.solimar.desafiostone.R;
 
 public class HomeActivity extends AppCompatActivity {
 
